@@ -21,7 +21,7 @@ class TabLink {
 
   };
 
-  select(event) {
+  select() {
     // Get all of the elements with the tabs-link class
     // Using a loop or the forEach method remove the 'tabs-link-selected' class from all of the links
     // Add a class named "tabs-link-selected" to this link
@@ -43,7 +43,7 @@ class TabItem {
     this.element = element;
   }
 
-  select(event) {
+  select() {
     // Select all ".tabs-item" elements from the DOM
     // Remove the class "tabs-item-selected" from each element
     // Add a class named "tabs-item-selected" to this element
